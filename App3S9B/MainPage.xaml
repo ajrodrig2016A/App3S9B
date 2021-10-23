@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App3S9B.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="Beige" Padding="24" CornerRadius="0">
+            <Label Text="Navegacion entre ventanas S3" HorizontalTextAlignment="Center" TextColor="Black" FontSize="18"/>
+        </Frame>
+        <Entry x:Name="txtUsuario" Placeholder="Ingrese el usuario"/>
+        <Entry x:Name="txtContrasena" Placeholder="Ingrese la contrasena" IsPassword="True"/>
+        
+        <Button x:Name="btnAbrir" Text="Abrir Ventana dos" Clicked="btnAbrir_Clicked"></Button>
+    </StackLayout>
+
+</ContentPage>
