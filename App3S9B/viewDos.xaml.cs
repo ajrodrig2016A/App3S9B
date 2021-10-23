@@ -14,6 +14,7 @@ namespace App3S9B
     {
         public viewDos(string usuario, string contrasena)
         {
+            //Verificar GIT
             InitializeComponent();
             //Envio a los Label
             lblUsuario.Text = usuario;

@@ -12,6 +12,7 @@ namespace App3S9B
     {
         public MainPage()
         {
+            //GIT
             InitializeComponent();
         }
 
